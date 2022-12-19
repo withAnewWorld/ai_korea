@@ -5,10 +5,12 @@
    [URL](https://ai-korea.kr/playground/selectTutorialPlaygroundTask.do)  <br/>
    * method <br/>
      a) fine tune: EfficientNetB0(NDVIA)   
-     b) # of Epochs: 10  
     
    * log <br/>
      a) Time <br/>
-       Train & eval: About 40 minutes for total epochs (colab) <br/>
+     &nbsp; &nbsp; Train & eval: About 40 minutes for total epochs (colab GPU) <br/>
+     b) # of Epochs: 10 <br/>
+     c) loss function: Cross Entropy <br/>
+     d) optimizer: Adam <br/>
      
    RESULT: 0.51(F1 Score)
